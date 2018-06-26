@@ -1,8 +1,16 @@
-# KRunner Bridge
+KRunner Bridge
 
 **Write krunner python plugins the quick way.**
 
-<del>Plasma 5 stopped exposing KDE Framework API to script languages (except QML) for the purpose of so-called stability (but it is not at all stable, crashing from time to time). But this brings some horrible consequence that writing krunner plugins becomes time-consuming. You have to write long C++ code, configure your C++ building toolchain, and compile them each time you modify something.</del>
+the calc.py thing runs eval()  on everything you type into krunner and returns the result with a nice icon.
+
+
+it does not get simpler than that, given that the bridge actually compiles, which may or may not happen for you.
+
+
+------
+
+Plasma 5 stopped exposing KDE Framework API to script languages (except QML) for the purpose of so-called stability (but it is not at all stable, crashing from time to time). But this brings some horrible consequence that writing krunner plugins becomes time-consuming. You have to write long C++ code, configure your C++ building toolchain, and compile them each time you modify something.
 
 No more pains with ONE plugin for all.
 
